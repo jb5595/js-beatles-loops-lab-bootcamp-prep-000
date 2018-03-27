@@ -1,8 +1,8 @@
 function theBeatlesPlay(musicians, instruments){
-  var sentances = new Array();
+  var newString = new Array();
   for (let i = 0; i <musicians.length -1; i++){
-   sentance[i] = "${i}"
+   newString[i] = "${i}"
    // sentances[i] = '${musicians[i]} plays $[instruments[i]]'
   }
-  return sentances;
+  return newString;
 }
